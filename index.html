@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/particle.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Contact us</title>
+  </head>
+  <body>
+    <div id="particle-container"></div>
+    <div class="form_container">
+      <div class="form_container_left">
+        <h2>Write Us</h2>
+        <input type="text" id="name" class="input_boxes" placeholder="Name" ></input>
+        <input
+          type="email"
+          id="email"
+          class="input_boxes"
+          placeholder="Email"
+        ></input>
+        <input
+          type="text"
+          id="subject"
+          class="input_boxes"
+          placeholder="Subject"
+        ></input>
+        <textarea name="message" spellcheck="true" cols="30" rows="6" class="input_boxes" placeholder="Message">
+        </textarea>
+        <button class="send_mesg_btn">Send Message</button>
+      </div>
+      <div class="form_container_right">
+        <div class="contact_info_container"><h2>Contact Information</h2>
+          <div class="contact_info_box"><span class="material-symbols-outlined">
+            location_on
+            </span>
+            <p><strong>Address:</strong><span class="contact_info_text"> NIT Durgapur, West Bengal</span></p>
+          </div>
+          <div class="contact_info_box"><span class="material-symbols-outlined">
+            call
+            </span>
+            <p><strong>Phone:</strong><span class="contact_info_text"> +91 XXXXXXXXXX</span></p>
+          </div>
+          <div class="contact_info_box"><span class="material-symbols-outlined">
+            mail
+            </span>
+            <p><strong>Email:</strong><span class="contact_info_text"> XXXXXXXX@gmail.com</span></p>
+          </div>
+          <div class="contact_info_box"><span class="material-symbols-outlined">
+            public
+            </span>
+            <p><strong>Website:</strong><a href="#" class="contact_info_text"> Yoursite.com</a></p>
+          </div></div>
+        
+      </div>
+    </div>
+  </body>
+  <script src="./js/particle.js"></script>
+</html>
