@@ -117,6 +117,7 @@ body {
     width: 83vw;
     height: 85vh;
     padding: 25px;
+    margin-top: 10px;
   }
   .form_container_left,
   .form_container_right {
